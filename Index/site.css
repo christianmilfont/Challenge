@@ -1,0 +1,170 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #000000;
+    padding: 20px;
+}
+h1{
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  
+}
+/* Cabeçalho */
+header {
+    background-color: #234f69;
+    padding: 15px;
+    text-align: center;
+}
+/* Navegação */
+nav {
+    background-color: #c9c9c9;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #4d4c4c;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover{
+    background-color: #969696;
+    border-color: #000000;
+    border-radius: 10px;
+}
+.a-button{
+  text-decoration: none;
+  color: #000000;
+}
+.button1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #353535;
+    background-color: #ffffff;
+    border: 2px solid #cacaca;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;    
+    position: absolute;
+    top: 20%;  
+    left: 80%;
+}
+
+
+/* Efeito hover */
+.button1:hover {
+    background-color: #b8b8b8;
+    border-color: #d8d8d8;
+}
+
+/* Efeito de clique */
+.button1:active {
+    background-color: #1e1e1f;
+    border-color: #f8f8f8;
+}
+/* Seção Principal */
+.main-section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #4e5155;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para telas de desktop */
+@media (min-width: 992px) {
+    /* Adicione seus estilos para telas de desktop aqui */
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Adicione seus estilos para tablets aqui */
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 767px) {
+    /* Adicione seus estilos para dispositivos móveis aqui */
+}
+
+/* Estilos para elementos de formulários
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {}
+    /* Adicione seus estilos para elementos de formulários aqui 
+    */
+
+
+
+  
+    .lds-ring {
+        display: inline-block;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 3%;
+        left: 58%;
+        color: #fff;
+      }
+      .lds-ring {
+        box-sizing: border-box;
+        display: block;
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        margin: 4px;
+        border: 4px solid #000000;
+        border-radius: 50%;
+        animation: lds-ring 2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+        border-color: #f7f7f7 transparent transparent transparent;
+      }
+      .lds-ring:nth-child(1) {
+        animation-delay: -0.45s;
+      }
+      .lds-ring:nth-child(2) {
+        animation-delay: -0.3s;
+      }
+      .lds-ring:nth-child(3) {
+        animation-delay: -0.15s;
+      }
+      @keyframes lds-ring {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    
+      .text-loading {
+        color: white;
+        margin-top: 55px;
+        margin-left: -17px;
+      }

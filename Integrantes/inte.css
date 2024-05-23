@@ -1,0 +1,49 @@
+ /* Reset de estilos */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 20px;
+}
+
+/* Estilo da seção */
+.team-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ececec;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos membros da equipe */
+.team-member {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Estilo das imagens dos membros da equipe */
+.team-member img {
+    border-radius: 50%;
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Estilo dos links */
+.link-to-main-site {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(98, 140, 255) ;
+}
