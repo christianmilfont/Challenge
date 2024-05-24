@@ -1,0 +1,25 @@
+Página Inicial:
+Cabeçalho com logotipo da empresa e menu de navegação (Home, Serviços, Sobre, Contato).
+Seção de busca para encontrar serviços de reparo de carros e motos.
+Destaque para os serviços mais populares ou em destaque.
+Seção de depoimentos de clientes satisfeitos.
+Rodapé com links para redes sociais, informações de contato e políticas da empresa.
+
+
+Página de Serviços:
+Lista de serviços oferecidos para carros e motos, com breve descrição e preço estimado.
+Opção para solicitar orçamento para um serviço específico.
+
+
+Página Sobre:
+Informações sobre a empresa, sua história e valores.
+Seção apresentando a equipe, com fotos e breve biografia dos membros.
+
+
+Página de Contato:
+Formulário de contato para os usuários enviarem mensagens diretamente para a empresa.
+Informações de contato, incluindo endereço físico, telefone e e-mail.
+
+
+Página de Cadastro:
+Formulário de cadastro para novos usuários, com campos para nome, e-mail, senha, etc.
